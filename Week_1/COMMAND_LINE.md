@@ -1,2 +1,2 @@
 # Basic Command line interface (CLI)
-`cd`
+`cd ..` go back  
