@@ -8,8 +8,9 @@
 - `echo "message"` display the message
 - `ls` list all files and directories
 - `New-Item <file_name>` create a new file
-- `mv <old_file> <new_file>` remane files
+- `mv <old_file> <new_file>`, `Rename-Item <old_file> <new_file>` remane files
 - `wget|curl <url> -OutFile <file_name>` download and save file to local machine
 - `$<variable>` set local variable
 - `code .` go to visual code
 - `python` go to python environment  `exit()` exit to python enviroment
+- `Get-Item <file_name> -Head 10` get the first 10 lines of file 
