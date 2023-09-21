@@ -13,4 +13,4 @@
 - `$<variable>` set local variable
 - `code .` go to visual code
 - `python` go to python environment  `exit()` exit to python enviroment
-- `Get-Item <file_name> -Head 10` get the first 10 lines of file 
+- `Get-Item <file_name> -Head 10` get the first 10 lines of file
