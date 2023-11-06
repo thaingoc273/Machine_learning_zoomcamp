@@ -17,6 +17,8 @@
 
 - The result is on the bar chart. The extreme gradient boosting classifier (XGBClassifier) is chosen for deployment
 ![image](./pictures/accuracy.png)
+![image](./pictures/auc_score.png)
+![image](./pictures/f1_score.png)
 
 ## Model deployment
 - We deploy model with Flask and AWS Elastic Beanstalk. At the end, an API endpoint for loan prediction is provided
