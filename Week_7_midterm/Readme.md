@@ -1,6 +1,6 @@
 # LOAN PREDICTION
 ## Project description
-- In this project, I will use different machine learning model to predict whether a customer loan is default or not.
+- In this project, I will use different machine learning models to predict whether a customer loan is default or not.
 - Dataset is taken from 2007 to 2020Q3 with unbalanced dataset (percentage of default loan is about 20%).
 - Link to dataset and description from [Kaggle](https://www.kaggle.com/datasets/ethon0426/lending-club-20072020q1)
 
@@ -16,7 +16,7 @@
 - We fit model with different type of algorithms: logistics regression, decision tree, random forest, gradient boosting and extreme gradient boosting.
 
 - The result is on the bar chart. The extreme gradient boosting classifier (XGBClassifier) is chosen for deployment
-
+![image](./pictures/accuracy.png)
 
 ## Model deployment
 - We deploy model with Flask and AWS Elastic Beanstalk. At the end, an API endpoint for loan prediction is provided
@@ -36,7 +36,16 @@
     ```py
     python predict_test.py
     ```
+
 ### Deployment with AWS Elastic Beanstalk
+- Initialization Elastic Beanstalk
+    ```
+    eb init -p Docker -r eu-north-1
+    ```
+- Create name for Elastic Beanstalk and deploy model on AWS
+    ```
+    eb create loan_prediction
+    ```
 
 
 ![image](./pictures/elastic_beanstalk.png)
