@@ -51,6 +51,7 @@
 
 
 ![image](./pictures/elastic_beanstalk.png)
+![image](./pictures/aws.png)
 
 
 
